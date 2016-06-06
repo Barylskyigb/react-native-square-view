@@ -1,10 +1,10 @@
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
 
 var {
   View
-} = React;
+} = require('react-native');
 
 var SquareView = React.createClass({
   getInitialState: function() {

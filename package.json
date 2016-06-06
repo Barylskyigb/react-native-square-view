@@ -1,6 +1,6 @@
 {
   "name": "react-native-square-view",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A square view component for react native.",
   "main": "react-native-square-view.js",
   "scripts": {
