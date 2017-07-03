@@ -24,7 +24,7 @@ var SquareView = React.createClass({
         }
         onLayout={event => {
           var {width, height} = event.nativeEvent.layout;
-          var sideLength = Math.min(width, height);
+          var sideLength = Math.max(width, height);
 
           if (sideLength) {
             this.setState({width: sideLength, height: sideLength});
